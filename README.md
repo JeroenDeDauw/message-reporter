@@ -1,10 +1,10 @@
 # Message Reporter
 
-[![Build Status](https://secure.travis-ci.org/onoi/message-reporter.svg?branch=master)](http://travis-ci.org/onoi/message-reporter)
-[![Code Coverage](https://scrutinizer-ci.com/g/onoi/message-reporter/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/onoi/message-reporter/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/onoi/message-reporter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/onoi/message-reporter/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/onoi/message-reporter/version.png)](https://packagist.org/packages/onoi/message-reporter)
-[![Packagist download count](https://poser.pugx.org/onoi/message-reporter/d/total.png)](https://packagist.org/packages/onoi/message-reporter)
+[![Build Status](https://secure.travis-ci.org/JeroenDeDauw/message-reporter.svg?branch=master)](http://travis-ci.org/JeroenDeDauw/message-reporter)
+[![Code Coverage](https://scrutinizer-ci.com/g/JeroenDeDauw/message-reporter/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/JeroenDeDauw/message-reporter/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/JeroenDeDauw/message-reporter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/JeroenDeDauw/message-reporter/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/jeroen/message-reporter/version.png)](https://packagist.org/packages/jeroen/message-reporter)
+[![Packagist download count](https://poser.pugx.org/jeroen/message-reporter/d/total.png)](https://packagist.org/packages/jeroen/message-reporter)
 
 An interface to report and relay arbitrary messages to registered handlers. This was part of
 the [Semantic MediaWiki][smw] code base and is now being deployed as independent library.
@@ -20,7 +20,7 @@ The recommended installation method for this library is to add it as dependency 
 ```json
 {
 	"require": {
-		"onoi/message-reporter": "~1.4"
+		"jeroen/message-reporter": "~1.4"
 	}
 }
 ```
@@ -83,10 +83,10 @@ $bar->setMessageReporter( $observableMessageReporter );
 ## Contribution and support
 
 If you want to contribute work to the project please subscribe to the
-developers mailing list and have a look at the [contribution guidelinee](/CONTRIBUTING.md). A list of people who have made contributions in the past can be found [here][contributors].
+developers mailing list and have a look at the [contribution guideline](/CONTRIBUTING.md). A list of people who have made contributions in the past can be found [here][contributors].
 
-* [File an issue](https://github.com/onoi/message-reporter/issues)
-* [Submit a pull request](https://github.com/onoi/message-reporter/pulls)
+* [File an issue](https://github.com/JeroenDeDauw/message-reporter/issues)
+* [Submit a pull request](https://github.com/JeroenDeDauw/message-reporter/pulls)
 
 ## Development
 
@@ -144,7 +144,7 @@ You can also invoke PHPUnit directly to pass it arguments, as follows
 [GNU General Public License 2.0 or later][license].
 
 [composer]: https://getcomposer.org/
-[contributors]: https://github.com/onoi/message-reporter/graphs/contributors
+[contributors]: https://github.com/JeroenDeDauw/message-reporter/graphs/contributors
 [license]: https://www.gnu.org/copyleft/gpl.html
-[travis]: https://travis-ci.org/onoi/message-reporter
+[travis]: https://travis-ci.org/JeroenDeDauw/message-reporter
 [smw]: https://github.com/SemanticMediaWiki/SemanticMediaWiki/
