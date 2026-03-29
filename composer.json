@@ -27,11 +27,6 @@
 		"mediawiki/mediawiki-codesniffer": "~34.0",
 		"phpstan/phpstan": "~0.12.67"
 	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "2.x-dev"
-		}
-	},
 	"autoload": {
 		"psr-4": {
 			"Onoi\\MessageReporter\\": "src/"
