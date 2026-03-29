@@ -1,7 +1,7 @@
 {
-	"name": "onoi/message-reporter",
+	"name": "jeroen/message-reporter",
 	"type": "library",
-	"description": "An interface to report and relay arbitrary messages to registered handlers",
+	"description": "An interface to report and relay arbitrary messages to registered handlers, plus test doubles",
 	"keywords": [
 		"messages",
 		"reporter"
