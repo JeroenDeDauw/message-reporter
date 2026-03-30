@@ -45,5 +45,5 @@
 	},
 	"replace": {
 		"onoi/message-reporter": "*"
-	},
+	}
 }
