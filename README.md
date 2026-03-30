@@ -112,10 +112,37 @@ You can also invoke PHPUnit directly to pass it arguments, as follows
 
 ## Release notes
 
-### 1.4.2 (2026-03-30)
+### 1.4.3 (2026-03-30)
 * Re-publish under jeroen/message-reporter
 * Bumps minimum php version to 8.1.
 * Add support for php 8.1-8.4
+
+### 1.4.2 (2021-01-15)
+* Added support for PHP 8
+* Changed minimum PHP version to 7.3
+
+### 1.4.1 (2019-04-10)
+* Added `.gitattributes`
+
+### 1.4.0 (2019-04-08)
+* Added `CallbackMessageReporter`
+* Changed minimum PHP version to 5.6.99
+
+### 1.3.0 (2017-11-05)
+* Added `MessageReporterAwareTrait`
+
+### 1.2.0 (2016-08-02)
+* Added `MessageReporterAware` and `SpyMessageReporter`
+
+### 1.1.0 (2016-04-13)
+* `ObservableMessageReporter::registerReporterCallback` to register only callable handlers
+
+### 1.0.0 (2015-01-24)
+* Initial release
+* `MessageReporterFactory`
+* `ObservableMessageReporter`
+* `NullMessageReporter`
+* `MessageReporter`
 
 ## License
 
