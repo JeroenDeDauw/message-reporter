@@ -20,7 +20,7 @@ The recommended installation method for this library is to add it as dependency 
 ```json
 {
 	"require": {
-		"jeroen/message-reporter": "~1.4"
+		"jeroen/message-reporter": "~1.5"
 	}
 }
 ```
@@ -112,9 +112,9 @@ You can also invoke PHPUnit directly to pass it arguments, as follows
 
 ## Release notes
 
-### 1.4.3 (2026-03-30)
+### 1.5.0 (2026-03-30)
 * Publish under jeroen/message-reporter
-* Bumps minimum php version to 8.1.
+* Bumps minimum php version to 8.1
 * Add support for php 8.1-8.4
 
 ### 1.4.2 (2021-01-15)
