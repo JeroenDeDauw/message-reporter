@@ -11,7 +11,7 @@ the [Semantic MediaWiki][smw] code base and is now being deployed as independent
 
 ## Requirements
 
-PHP 7.3 or later
+PHP 8.1 or later
 
 ## Installation
 
@@ -20,7 +20,7 @@ The recommended installation method for this library is to add it as dependency 
 ```json
 {
 	"require": {
-		"jeroen/message-reporter": "~1.4"
+		"jeroen/message-reporter": "~2.0"
 	}
 }
 ```
