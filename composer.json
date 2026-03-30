@@ -42,5 +42,8 @@
 	},
 	"scripts":{
 		"phpunit": "vendor/bin/phpunit -c phpunit.xml.dist"
+	},
+	"replace": {
+		"onoi/message-reporter": "*"
 	}
 }
